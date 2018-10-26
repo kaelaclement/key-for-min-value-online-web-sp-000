@@ -15,7 +15,6 @@ def key_for_min_value(name_hash)
     # end
   # end
   lowest = nil
-  lowest_key = nil
   sorted = name_hash.collect do |key,value|
     lowest ||= value
     if value < lowest
